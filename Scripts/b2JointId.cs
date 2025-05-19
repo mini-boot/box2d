@@ -1,0 +1,14 @@
+namespace Box2D
+{
+    public partial struct b2JointId
+    {
+        [NativeTypeName("int32_t")]
+        public int index1;
+
+        [NativeTypeName("uint16_t")]
+        public ushort world0;
+
+        [NativeTypeName("uint16_t")]
+        public ushort revision;
+    }
+}
